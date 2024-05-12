@@ -20,22 +20,22 @@
             android:padding="10dp">
 
             <TextView
-                android:id="@+id/title"
+                android:id="@+id/header"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
-                android:text="your task will go here"
+                android:text="Enter the task"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/priority"
+                android:id="@+id/time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:fontFamily="sans-serif"
-                android:text="Priority - High"
+                android:text="Time"
                 android:textColor="@color/black"
                 android:textSize="15sp" />
         </LinearLayout>

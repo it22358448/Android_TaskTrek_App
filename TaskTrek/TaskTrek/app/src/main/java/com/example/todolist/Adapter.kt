@@ -15,7 +15,7 @@ import java.util.Locale
 class Adapter(private val data: List<CardInfo>) : RecyclerView.Adapter<Adapter.ViewHolder>() {
     inner class ViewHolder(private val binding: ViewBinding) : RecyclerView.ViewHolder(binding.root) {
         val title = binding.title
-        val priority = binding.priority
+        val priority = binding.time
         val layout = binding.mylayout
     }
 

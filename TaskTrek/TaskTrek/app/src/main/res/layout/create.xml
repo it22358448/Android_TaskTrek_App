@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="20dp"
-    tools:context=".CreateCard">
+    tools:context=".create">
 
 
     <TextView
@@ -21,7 +21,7 @@
         android:textSize="36sp"
         android:textStyle="bold" />
     <EditText
-        android:id="@+id/create_title"
+        android:id="@+id/add_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Task"
@@ -33,12 +33,12 @@
         />
 
     <EditText
-        android:id="@+id/create_priority"
+        android:id="@+id/add_time"
         android:layout_width="match_parent"
         android:layout_height="64dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/custom_edittetext"
-        android:hint="Priority"
+        android:hint="Time"
         android:padding="15dp"
         android:textColor="@color/black"
         android:textColorHint="#BFBBBB" />
